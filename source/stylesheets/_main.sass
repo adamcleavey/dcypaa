@@ -1,0 +1,20 @@
+body.index
+  background-image: image_url("background.png")
+  text-align: center
+  font-family: sans-serif
+  .welcome
+    +animation(welcome, .9s, 0s)
+  .container
+    text-align: center
+    h1
+      color: rgba(0,0,0,0.3)
+      text-shadow: 0 1px 0 rgba(255,255,255,0.5)
+      opacity: 0
+      +animation(fade-in, 1s, 1s)
+    h3
+      @extend h1
+    #logo
+      width: 200px
+      margin: 150px auto 0px auto
+
+  

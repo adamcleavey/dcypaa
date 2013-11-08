@@ -8,7 +8,7 @@ gem "middleman"
 
 gem 'rack-contrib'
 
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', :require => false
 
 gem 'puma'
 # Live-reloading plugin
