@@ -8,6 +8,8 @@ gem "middleman"
 
 gem 'rack-contrib'
 
+gem 'bootstrap-sass'
+
 gem 'puma'
 # Live-reloading plugin
 gem "middleman-livereload"
