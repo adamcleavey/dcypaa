@@ -6,7 +6,7 @@ body.index
     +animation(welcome, .9s, 0s)
   .container
     text-align: center
-    margin: 150px auto 0 auto
+    margin: 50px auto 0 auto
     #logo
       width: 200px
   h1
@@ -21,3 +21,8 @@ body.index
     //text-shadow: 0 1px 0 rgba(255,255,255,0.5)
     opacity: 0
     +animation(fade-in, 1s, 2.5s)
+
+@media screen and (min-width: 768px)
+  body.index
+    .container
+      margin: 150px auto 0 auto
