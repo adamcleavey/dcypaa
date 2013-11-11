@@ -6,15 +6,18 @@ body.index
     +animation(welcome, .9s, 0s)
   .container
     text-align: center
-    h1
-      color: rgba(0,0,0,0.3)
-      text-shadow: 0 1px 0 rgba(255,255,255,0.5)
-      opacity: 0
-      +animation(fade-in, 1s, 1s)
-    h3
-      @extend h1
+    margin: 150px auto 0 auto
     #logo
       width: 200px
-      margin: 150px auto 0px auto
-
-  
+  h1
+    color: rgba(0,0,0,0.3)
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5)
+    opacity: 0
+    font-size: 72px
+    +animation(fade-in, 1s, 1.5s)
+  p
+    //color: rgba(0,0,0,0.3)
+    margin-top: -15px
+    //text-shadow: 0 1px 0 rgba(255,255,255,0.5)
+    opacity: 0
+    +animation(fade-in, 1s, 2.5s)
