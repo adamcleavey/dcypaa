@@ -1,4 +1,4 @@
-@mixin animation($name, $duration, $delay)
+@mixin animation($name, $duration, $delay: 0s, $fillmode: forwards)
   -webkit-animation-name: $name
   -moz-animation-name: $name
   animation-name: $name
@@ -8,9 +8,9 @@
   -webkit-animation-delay: $delay
   -moz-animation-delay: $delay
   animation-delay: $delay
-  -webkit-animation-fill-mode: forwards
-  -moz-animation-fill-mode: forwards
-  animation-fill-mode: forwards
+  -webkit-animation-fill-mode: $fillmode
+  -moz-animation-fill-mode: $fillmode
+  animation-fill-mode: $fillmode
 
 @mixin fade-in($from, $to)  
   @keyframes fade-in
@@ -28,4 +28,21 @@
       opacity: $from
     to 
       opacity: $to
+
+=keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content
     
+=transform($val)
+  -webkit-transform: $val
+  -moz-transform: $val
+  transform: $val
+  
+=animation-timing-function($val)
+  -webkit-animation-timing-function: $val
+  -moz-animation-timing-function: $val
+  animation-timing-function: $val
