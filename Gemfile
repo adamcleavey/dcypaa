@@ -8,6 +8,8 @@ gem "middleman"
 
 gem 'rack-contrib'
 
+gem "turbolinks", require: false
+
 gem 'bootstrap-sass', :require => false
 
 gem 'puma'
