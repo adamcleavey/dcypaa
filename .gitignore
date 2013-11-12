@@ -11,6 +11,10 @@
 /build
 /tmp
 
+# Ignore my crap
+/assets
+/other files
+
 # Ignore Sass' cache
 /.sass-cache
 

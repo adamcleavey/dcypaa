@@ -39,11 +39,17 @@
 # activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  
+  def title_maker(title)
+    if title.is_a? String
+      title + " | DCYPAA 2015"
+    else
+      "DCYPAA 2015"
+    end
+  end
+  
+end
 
 activate :directory_indexes
 

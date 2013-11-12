@@ -13,17 +13,7 @@
   animation-fill-mode: $fillmode
 
 @mixin fade-in($from, $to)  
-  @keyframes fade-in
-    from 
-      opacity: $from
-    to 
-      opacity: $to
-  @-webkit-keyframes fade-in
-    from 
-      opacity: $from
-    to 
-      opacity: $to
-  @-moz-keyframes fade-in
+  +keyframes(fade-in)
     from 
       opacity: $from
     to 
