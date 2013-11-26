@@ -4,7 +4,7 @@ source 'http://rubygems.org'
 
 ruby "2.0.0"
 
-gem "middleman"
+gem "middleman", '~> 3.2.0'
 
 gem 'rack-contrib'
 
@@ -15,6 +15,10 @@ gem 'bootstrap-sass', :require => false
 gem 'puma'
 # Live-reloading plugin
 gem "middleman-livereload"
+
+gem "middleman-autoprefixer"
+
+gem "middleman-favicon-maker"
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
