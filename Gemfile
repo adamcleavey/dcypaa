@@ -10,8 +10,6 @@ gem 'rack-contrib'
 
 gem "turbolinks", require: false
 
-gem 'bootstrap-sass', :require => false
-
 gem 'puma'
 # Live-reloading plugin
 gem "middleman-livereload"

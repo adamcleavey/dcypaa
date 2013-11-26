@@ -1,3 +1,5 @@
 //= require turbolinks
 //= require jquery
-//= require bootstrap
+//= require foundation
+
+$(document).foundation();
