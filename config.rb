@@ -74,7 +74,7 @@ configure :build do
   # Enable cache buster
   # activate :asset_hash
   
-  activate :favicon_maker
+  # activate :favicon_maker
   
   # Use relative URLs
   activate :relative_assets
