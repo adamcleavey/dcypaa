@@ -51,6 +51,10 @@ helpers do
     end
   end
   
+  def thumbnail_to(image)
+    '<a class="th" href="'+ image_path(image) +'">'+ image_tag(image) +'</a>'
+  end
+  
 end
 
 activate :directory_indexes
