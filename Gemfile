@@ -12,7 +12,7 @@ gem 'rack-contrib'
 
 # gem "turbolinks", require: false
 
-gem 'unicorn'
+gem 'puma'
 
 # gem "rack-try_static"
 
