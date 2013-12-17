@@ -6,11 +6,15 @@ ruby "2.0.0"
 
 gem "middleman", '~> 3.2.0'
 
+gem "rack"
+
 gem 'rack-contrib'
 
-gem "turbolinks", require: false
+# gem "turbolinks", require: false
 
-gem 'puma'
+gem 'unicorn'
+
+# gem "rack-try_static"
 
 gem "middleman-autoprefixer"
 
