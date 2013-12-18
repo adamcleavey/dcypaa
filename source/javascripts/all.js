@@ -1,4 +1,3 @@
-//= require turbolinks
 //= require jquery
 //= require foundation
 

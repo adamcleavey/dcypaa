@@ -6,6 +6,8 @@
 @include font-face("univers-lightultracondensed", font-files("univers-lightultracondensed.otf", "univers-lightultracondensed.ttf", "univers-lightultracondensed.woff", "univers-lightultracondensed.svg"), "univers-lightultracondensed.eot")
 @include font-face("univers", font-files("univers.otf", "univers.ttf", "univers.woff", "univers.svg"), "univers.eot")
 
+body
+  font-family: "univers-light"
 h1
   font-family: "univers-lightultracondensed"
 h2
@@ -22,4 +24,9 @@ p
     font-family: "univers"
 fine
   font-family: "univers-condensedlightoblique"
+
+.accordion
+  font-family: "univers-light"
+  dd > a
+    font-family: "univers"
 
