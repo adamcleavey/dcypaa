@@ -83,8 +83,6 @@ configure :build do
   # Enable cache buster
   # activate :asset_hash
   
-  # activate :imageoptim
-  
   # activate :favicon_maker
   
   # Use relative URLs
