@@ -51,8 +51,9 @@ helpers do
     end
   end
   
-  def thumbnail_to(image)
-    '<a class="th" href="'+ image_path(image) +'">'+ image_tag(image) +'</a>'
+  def thumbnail_to(image, thumbnail = image)
+    
+    '<a class="th" href="'+ image_path(image) +'">'+ image_tag(thumbnail || image) +'</a>'
   end
   
 end
